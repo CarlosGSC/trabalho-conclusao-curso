@@ -13,7 +13,7 @@ pose_inicial = [0; 0; 0]; % Posição inicial [x; y; theta]
 pose_goal = [5; 5];      % Posição de destino [x; y]
 Kp_linear = 0.5;
 Kp_angular = 2.0;
-v_max = 1.0;
+v_max = 0.4;
 w_max = pi/2;
 dist_limite = 0.1; 
 
